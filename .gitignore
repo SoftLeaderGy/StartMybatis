@@ -1,0 +1,8 @@
+/Mybatis/
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+target/
+.gitignore
