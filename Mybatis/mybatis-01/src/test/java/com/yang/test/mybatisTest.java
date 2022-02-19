@@ -16,16 +16,16 @@ import java.util.Map;
  * @Date: 2021/03/20/8:43 PM
  */
 public class mybatisTest {
-    @Test
-    public void test(){
-
-        SqlSession sqlSession = MybatisUtils.getSqlSession();
-        userMapper mapper = sqlSession.getMapper(userMapper.class);
-        List<userPo> userList = mapper.getUserList();
-        for (userPo user:userList) {
-            System.out.println(user);
-        }
-    }
+//    @Test
+//    public void test(){
+//
+//        SqlSession sqlSession = MybatisUtils.getSqlSession();
+//        userMapper mapper = sqlSession.getMapper(userMapper.class);
+//        List<userPo> userList = mapper.getUserList();
+//        for (userPo user:userList) {
+//            System.out.println(user);
+//        }
+//    }
     @Test
     public void getUserByIdTest(){
         SqlSession sqlSession = MybatisUtils.getSqlSession();

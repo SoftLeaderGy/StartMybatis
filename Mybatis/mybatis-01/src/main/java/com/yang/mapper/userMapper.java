@@ -1,6 +1,5 @@
 package com.yang.mapper;
 
-import com.sun.tools.internal.xjc.reader.xmlschema.bindinfo.BIConversion;
 import com.yang.po.userPo;
 
 import java.util.List;
@@ -12,7 +11,7 @@ import java.util.Map;
  * @Date: 2021/03/20/8:36 PM
  */
 public interface userMapper {
-    List<userPo> getUserList();
+   // List<userPo> getUserList();
 
     userPo getUserById(int id);
 

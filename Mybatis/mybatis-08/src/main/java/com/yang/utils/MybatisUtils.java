@@ -17,7 +17,7 @@ import java.util.logging.Logger;
  * @Author: Yang.Guo
  * @Date: 2021/03/20/8:07 PM
  */
-@Slf4j
+//@Slf4j
 @Log4j
 public class MybatisUtils {
     private static SqlSessionFactory sqlSessionFactory;
